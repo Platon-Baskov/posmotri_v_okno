@@ -59,6 +59,7 @@ ol {
 .content__list {
   position: relative;
   overflow-y: auto;
+  padding-block-end: 2px;
 }
 
 .content__list-item:not(:last-child) {
@@ -228,7 +229,7 @@ ol {
   line-height: .94;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
 }
 
 input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
